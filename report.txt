@@ -1,0 +1,14 @@
+(a) Model used:
+MediaPipe Pose. Chosen because it is fast, lightweight, easy to install in Colab, and provides stable keypoints for body motion analysis.
+
+(b) Metric computed:
+Head Movement Distance — measured as the Euclidean distance between the nose keypoint in consecutive frames.
+
+(c) Numeric results:
+Between Frame 100 and Frame 300: 36 pixels
+Between Frame 300 and Frame 500: 22 pixels
+Between Frame 500 and Frame 700: 41 pixels
+Between Frame 700 and Frame 900: 19 pixels
+
+(d) Interpretation:
+The head moved noticeably in the first and third intervals (36 and 41 pixels), indicating substantial movement. Smaller distances (22 and 19 pixels) show minor adjustments. This metric quantifies motion geometrically without requiring domain knowledge.
