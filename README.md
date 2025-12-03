@@ -19,26 +19,6 @@ The pipeline performs the following steps:
 
 ---
 
-## 📁 Repository Structure
-
-Motion-Detection-/
-│
-├── representative/ # Selected motion stage frames (original)
-│ ├── frame_100.jpg
-│ ├── frame_300.jpg
-│ └── ...
-│
-├── pose_representative/ # Pose-overlaid frames
-│ ├── frame_100.jpg
-│ ├── frame_300.jpg
-│ └── ...
-│
-├── pose_pipeline.ipynb # Complete pose + metric pipeline (Colab notebook)
-│
-└── report.txt or report.pdf # Motion analysis summary and interpretation
-
----
-
 ## 🤖 Model Choice
 
 **MediaPipe Pose** was used as the pose-estimation model because:
